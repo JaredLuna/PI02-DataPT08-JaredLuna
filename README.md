@@ -48,5 +48,12 @@ Con esto pudimos conseguir el indice de mortalidad y para la población total se
 
 El tercer KPI que se propusó fue con enfoque a las horas picos y los accidentes que se tienen en dichas horas. Se analizó las horas en las que mas accidentes mortales y quienes son las victimas más frecuentes en esas horas. Con esto se podra generar un plan de precacución en dichas horas para reducir las victimas y así poder generar un KPI.
 
+Antes de terminar hay que recordar la diferencia entre un KPI y una métrica.
+
+**Metrica**: Una métrica es cualquier estándar de medida que se utiliza para cuantificar y evaluar aspectos específicos del rendimiento, procesos o resultados dentro de una organización.
+
+**KPI**: Un KPI es un tipo específico de métrica que se considera fundamental para evaluar el desempeño en áreas críticas del negocio. Los KPIs están alineados con los objetivos estratégicos y las metas de la organización.
+
+
 
 
