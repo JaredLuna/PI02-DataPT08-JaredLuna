@@ -26,3 +26,17 @@ Para la base de datos de víctimas realizamos el mismo tratamiento, pero en este
 
 Una vez realizado este tratamiento a nuestros datos se procedió a exportar nuestros datos a un formato parquet para tener un archivo más ligero y su posterior lectura en Power BI.
 
+## Dashboard PowerBI
+
+Para la elaboración del dashboard se utilizó la herramienta de Power BI, la cual se estuvo utilizando durante el curso. Para el fonde de nuestro dashboard se realizó la plantilla en Microsoft PowerPoint, se exporto como archivo escalable de vectores y finalmente en PowerBi se coloco como fondo del lienzo para lograr un "mejor" diseño.
+
+Se importaron los archivos .parquet a nuestro dashboard para empezar a trabajar con ellos. Para los datos de Hechos creamos una nueva columna condicional para dividir si nuestros datos se encontraban en el primer semestre del año o en el segundo, esto para nuestro primer KPI.
+
+Para el primer KPI se utilizó la formula que nos proporcionaron como:
+
+ "Definimos a la tasa de homicidios en siniestros viales como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante un período de tiempo específico. Su fórmula es: (Número de homicidios en siniestros viales / Población total) * 100,000"
+
+Con esto pudimos conseguir el indice de mortalidad y para la población total se busco en internet dicha población para el año del 2020. Para los demás KPI's solo fue necesaria la utilización de los datos que ya teníamos. 
+
+El tercer KPI que se propusó fue sobre 
+
