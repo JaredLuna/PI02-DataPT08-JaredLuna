@@ -16,7 +16,10 @@ Así que primeramente nos vamos a centrar en utilizar la misma metodología de t
 ## EDA (Exploratory Data Analysis) 
 Para este punto nos centramos en la lectura de nuestros datos, se nos proporcionaron dos archivos .csv que te tuvieron que leer con pandas y una codificación 'ISO-8859-1' por las palabras en español. Una vez leídos nuestros datos pudimos observar su contenido, dándonos una idea de la información que nos estaban proporcionando. Obtuvimos la información de los dataframes que para ver si tenían datos faltantes o nulos para su posterior tratamiento en la ETL.
 
-Se realizaron unas cuantas gráficas para poder obtener un panorama más amplio de nuestra información, ir encontrando outliers e insights para poder definir mejor la propuesta de nuestro KPI. Los resultados de dichas gráficas se pueden observar en el notebook EDA.ipynb, ahí viene más detallada la información.
+Se realizaron unas cuantas gráficas para poder obtener un panorama más amplio de nuestra información, ir encontrando outliers e insights para poder definir mejor la propuesta de nuestro KPI. Los resultados de dichas gráficas se pueden observar en el notebook EDA.ipynb, ahí viene más detallada la información. Aquí tenemos una gráfica de ejemplo:
+
+![image](https://github.com/soyHenry/PI_DA/assets/37918365/a1a26dbe-cc58-4517-b777-f7e9f21e1943)
+
 Una vez analizadas las gráficas, buscado valores faltantes y duplicados se procedió a la parte de la ETL. Cabe mencionar que la base de datos venía bastante prolija, por lo que las correcciones fueron mínimas en la ETL.
 
 ## ETL (Extract Transform Load)
@@ -38,5 +41,7 @@ Para el primer KPI se utilizó la formula que nos proporcionaron como:
 
 Con esto pudimos conseguir el indice de mortalidad y para la población total se busco en internet dicha población para el año del 2020. Para los demás KPI's solo fue necesaria la utilización de los datos que ya teníamos. 
 
-El tercer KPI que se propusó fue sobre 
+El tercer KPI que se propusó fue con enfoque a las horas picos y los accidentes que se tienen en dichas horas. Se analizó las horas en las que mas accidentes mortales y quienes son las victimas más frecuentes en esas horas. Con esto se podra generar un plan de precacución en dichas horas para reducir las victimas y así poder generar un KPI.
+
+
 
