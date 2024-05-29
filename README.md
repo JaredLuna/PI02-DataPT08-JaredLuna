@@ -34,6 +34,7 @@ Para la base de datos de víctimas realizamos el mismo tratamiento, pero en este
 Una vez realizado este tratamiento a nuestros datos se procedió a exportar nuestros datos a un formato parquet para tener un archivo más ligero y su posterior lectura en Power BI.
 
 ## Dashboard PowerBI
+![images](https://github.com/soyHenry/PI_DA/assets/37918365/0ed8245c-4760-4911-9449-77e5222cb4d8)
 
 Para la elaboración del dashboard se utilizó la herramienta de Power BI, la cual se estuvo utilizando durante el curso. Para el fonde de nuestro dashboard se realizó la plantilla en Microsoft PowerPoint, se exporto como archivo escalable de vectores y finalmente en PowerBi se coloco como fondo del lienzo para lograr un "mejor" diseño.
 
